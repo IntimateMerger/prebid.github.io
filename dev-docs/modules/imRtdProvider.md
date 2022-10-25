@@ -18,7 +18,7 @@ sidebarType : 1
 
 This module reads segments from [Intimate Merger](https://corp.intimatemerger.com/) audience data platform and attaches them as targeting keys to bid requests.
 
-The audience data platform performs segmentation even in environments where 3rd party cookies are not available, but curretly only available in Japan.
+The audience data platform performs segmentation even in environments where 3rd party cookies are not available. For use outside Japan, please contact us.
 
 
 ## Usage
