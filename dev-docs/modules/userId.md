@@ -1017,6 +1017,7 @@ The Intimate Merger privacy policy is at https://corp.intimatemerger.com/privacy
 {% highlight javascript %}
 pbjs.setConfig({
     userSync: {
+        ppid: 'ppid.intimatemerger.com', // GAM Publisher Provided id support
         userIds: [{
             name: "imuid",
             params: {
