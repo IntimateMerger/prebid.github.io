@@ -989,7 +989,7 @@ pbjs.setConfig({
 
 ### IM-UID by Intimate Merger
 
-IM-UID, provided by [Intimate Merger](https://corp.intimatemerger.com/), is a universal identifier that designed for publishers, platforms and advertisers to perform segmentation and targeting even in environments where 3rd party cookies are not available. IM-UID is currently only available in Japan.
+IM-UID, provided by [Intimate Merger](https://corp.intimatemerger.com/), is a universal identifier that designed for publishers, platforms and advertisers to perform segmentation and targeting even in environments where 3rd party cookies are not available. For use outside Japan, [please contact us](https://intimatemerger.com/r/pbInquiry).
 
 Add it to your Prebid.js package with:
 
@@ -1017,6 +1017,7 @@ The Intimate Merger privacy policy is at https://corp.intimatemerger.com/privacy
 {% highlight javascript %}
 pbjs.setConfig({
     userSync: {
+        ppid: 'ppid.intimatemerger.com', // GAM Publisher Provided id support
         userIds: [{
             name: "imuid",
             params: {
